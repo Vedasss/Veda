@@ -1,1 +1,0 @@
-decidi sacar el formulario php porque github no tiene esa tecnologia, si se presenta otro hosting, descomentar el codigo del formulario que usa php en html para usarlo
