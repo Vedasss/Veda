@@ -1,3 +1,37 @@
+
+
+
+
+var a = false;
+
+
+function mostrar1(){ 
+
+if (a==false){
+document.getElementById('obj0').style.display = 'block';
+document.getElementById('obj1').style.display = 'block';
+document.getElementById('obj2').style.display = 'block';
+document.getElementById('obj3').style.display = 'block';
+document.getElementById('obj4').style.display = 'block';
+a = true;
+}
+else{
+document.getElementById('obj0').style.display = 'none';
+document.getElementById('obj1').style.display = 'none';
+document.getElementById('obj2').style.display = 'none';
+document.getElementById('obj3').style.display = 'none';
+document.getElementById('obj4').style.display = 'none';
+a = false;
+}
+
+}
+
+
+
+
+
+
+
 /**
 * Template Name: iPortfolio - v3.1.0
 * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/

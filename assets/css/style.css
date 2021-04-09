@@ -31,6 +31,13 @@ h1, h2, h3, h4, h5, h6{
 CSS propio 
 --------------------------------------------------------------*/
 button { margin: 1px auto; }
+.po{
+display: none; 
+}
+
+.caja_estandar{
+padding: 10px 30px 10px;
+}
 /*--------------------------------------------------------------
 CSS propio 
 --------------------------------------------------------------*/
@@ -409,7 +416,7 @@ section {
 # Akills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 60px;
+  height: 120px; 
   display: block;
   background: none;
   border-radius: 0;
