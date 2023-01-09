@@ -8,21 +8,28 @@ var a = false;
 function mostrar1(){ 
 
 if (a==false){
-document.getElementById('obj0').style.display = 'block';
-document.getElementById('obj1').style.display = 'block';
-document.getElementById('obj2').style.display = 'block';
-document.getElementById('obj3').style.display = 'block';
-document.getElementById('obj4').style.display = 'block';
-a = true;
-}
+  
+  document.getElementById('obj2').style.display = 'block';
+  document.getElementById('obj4').style.display = 'block';
+  
+  /**
+  document.getElementById('obj0').style.display = 'block';
+  document.getElementById('obj1').style.display = 'block';
+  document.getElementById('obj3').style.display = 'block';
+  */
+  a = true;
+  }
 else{
-document.getElementById('obj0').style.display = 'none';
-document.getElementById('obj1').style.display = 'none';
-document.getElementById('obj2').style.display = 'none';
-document.getElementById('obj3').style.display = 'none';
-document.getElementById('obj4').style.display = 'none';
-a = false;
-}
+  
+  document.getElementById('obj2').style.display = 'none';
+  document.getElementById('obj4').style.display = 'none';
+  /**
+  document.getElementById('obj0').style.display = 'none';
+  document.getElementById('obj1').style.display = 'none';
+  document.getElementById('obj3').style.display = 'none';
+  */
+  a = false;
+  }
 
 }
 
