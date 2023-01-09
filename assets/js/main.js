@@ -9,6 +9,10 @@ function mostrar1(){
 
 if (a==false){
   
+  /**
+  pasar mejor a hacerlo con clases, es estupido hacerlo de esta manera
+  */
+  
   document.getElementById('obj2').style.display = 'block';
   document.getElementById('obj4').style.display = 'block';
   
