@@ -5,7 +5,9 @@
 var a = false;
 document.getElementById('obj2').style.display = 'block';
 document.getElementById('obj4').style.display = 'block';
-
+  /**
+  por que esto no funciona???
+  */
 
 function mostrar1(){ 
 
