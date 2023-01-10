@@ -2,7 +2,7 @@
 
 
 
-var a = false;
+var a = true;
 document.getElementById('obj2').style.display = 'block';
 document.getElementById('obj4').style.display = 'block';
   /**
